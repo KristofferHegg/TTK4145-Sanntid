@@ -22,7 +22,7 @@ This simulator is a drop-in alternative to the elevator hardware server that int
 
 #### Configuration options
 
-The simulator has several configuration options, which you can find [listed here](simulator.con). The most relevant options are:
+The simulator has several configuration options, which you can find [listed here](https://github.com/KristofferHegg/TTK4145-Sanntid/blob/master/Simulator/simulator.con). The most relevant options are:
  - `--port`: This is the TCP port used to connect to the simulator, which defaults to 15657.    
  You can start multiple simulators with different port numbers to run multiple elevators on a single machine.
  
