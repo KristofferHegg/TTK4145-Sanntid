@@ -17,8 +17,8 @@ We wrote our soloution in GO. This project uses the (awesome) handed out package
 
 We decided to use a "fleeting master" together with UDP broadcasting. All elevators knows about all other elevators state, direction, floor and orders. The elevator that receives an external order, will be the one to decide which elevator should execute the order. This decision, along with the order, is broadcasted to all other elevators on the network. The order is then acknowledged between the elevators before the panel light is lit. If an elevator lost network or failed to finish the order in a certain time, the other elevators would take over the order. If an elevator is operating normally, only without network, it functioned as a locally run elevator.
 
-### [Simulator mkII] (https://github.com/TTK4145/Simulator-v2)
-This simulator is a drop-in alternative to the elevator hardware server that interfaces to the hardware at the lab. The server is intended to run in its own window, as it also takes keyboard input to simulate button presses. The server should not need to be restarted if the client is restarted.
+### [Simulator](https://github.com/TTK4145/Simulator-v2)
+This simulator is a drop-in alternative to the elevator hardware server that interfaces to the hardware at the lab. The server is intended to run in its own window, as it also takes keyboard input to simulate button presses.
 
 #### Configuration options
 
@@ -28,7 +28,7 @@ The simulator has several configuration options, which you can find [listed here
  
 Options passed on the command line (eg. `./SimElevatorServer --port 15658`) override the options in the the `simulator.con` config file, which in turn override the defaults baked in to the program.
 
-#### Default keyboard controls
+#### Keyboard controls
 
  - Up: `qwe`
  - Down: `sdf`
