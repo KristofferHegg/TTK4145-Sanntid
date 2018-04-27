@@ -32,7 +32,7 @@ Options passed on the command line (eg. `./SimElevatorServer --port 15658`) over
 
  - Up: `qwe`
  - Down: `sdf`
- - Cab: `zxcv,.`
+ - Cab: `zxcv`
  - Stop: `p`
  - Obstruction: `-`
  - Move elevator back in bounds (away from the end stop switches): `0`
