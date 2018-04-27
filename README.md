@@ -30,15 +30,12 @@ Options passed on the command line (eg. `./SimElevatorServer --port 15658`) over
 
 #### Default keyboard controls
 
- - Up: `qwertyui`
- - Down: `sdfghjkl`
- - Cab: `zxcvbnm,.`
+ - Up: `qwe`
+ - Down: `sdf`
+ - Cab: `zxcv,.`
  - Stop: `p`
  - Obstruction: `-`
- - Motor manual override: Down: `7`, Stop: `8`, Up: `9`
  - Move elevator back in bounds (away from the end stop switches): `0`
-
-Up, down, cab and stop buttons can be toggled (and thereby held down) by using uppercase letters.
 
 #### Display 
 ```
@@ -55,5 +52,8 @@ The ascii-art-style display is updated whenever the state of the simulated eleva
 
 ### Getting started
 Comming Soon
+
+### Credit
+Thanks to [Kjetil Kjeka](https://github.com/kjetilkjeka) and [klasbo](https://github.com/klasbo) for the (awesome) handed out packages and simulator. 
 
 
